@@ -1,0 +1,10 @@
+#!/bin/bash
+
+g++ `pkg-config --cflags --libs gtk+-2.0` -g main_gtk.cpp -o gtk
+
+#export CPATH=$CPATH:/usr/include/gtk-2.0
+#export CPATH=$CPATH:/usr/include/glib-2.0/
+#export CPATH=$CPATH:/usr/lib/glib-2.0/include/
+#export CPATH=$CPATH:/usr/include/pango-1.0/
+#export CPATH=$CPATH:/usr/lib/gtk-2.0/include/
+#export CPATH=$CPATH:/usr/include/atk-1.0/
