@@ -1,5 +1,5 @@
 #!/bin/bash
 
-g++ -g main_wx.cpp `wx-config --cxxflags` `wx-config --libs` -o wx
+g++  main_wx.cpp `wx-config --cxxflags` `wx-config --libs` -o wx
 
 export LD_LIBRARY_PATH=/usr/local/lib
